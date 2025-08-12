@@ -1,0 +1,65 @@
+body{
+  background-color: rgb(204, 255, 0);
+  background-image: url(https://pngtree.com/freebackground/colorful-anime-style-sunset-landscape-wallpaper_15583513.html);
+}/* index2.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+center {
+    margin-top: 100px;
+}
+
+input#res {
+    width: 300px;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+table {
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+    border: none;
+    margin: 8px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #4e4e4e, #3a3a3a);
+    color: white;
+    box-shadow: 2px 2px 8px #1a1a1a, -2px -2px 8px #5a5a5a;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff4d4d;
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ff4d4d;
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: inset 2px 2px 5px #000;
+}
